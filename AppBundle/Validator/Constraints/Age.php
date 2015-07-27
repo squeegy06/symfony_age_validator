@@ -12,6 +12,9 @@ use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\Exception\ConstraintDefinitionException;
 use Symfony\Component\Validator\Exception\MissingOptionsException;
 
+/**
+ * @Annotation
+ */
 class Age extends Constraint
 {	
 	const SCALE_YEARS = 'years';
